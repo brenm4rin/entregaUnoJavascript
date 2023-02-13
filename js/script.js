@@ -2,6 +2,12 @@ let nombre
 let dia
 let mes
 let resultado
+let entrada = prompt("Ingrese la frase NO SOY UN ROBOT");
+
+while(entrada != "NO SOY UN ROBOT") {
+    alert("Usted ingresó " + entrada);
+    entrada = prompt("Ingrese el dato correctamente para continuar");
+}
 
 function datos() {
     dia = parseInt(prompt('Ingrese su día de nacimiento'));
